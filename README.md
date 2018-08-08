@@ -13,5 +13,9 @@ D:/> java -jar Jenkins.war
 Once jenkins is up and running, one can access jenkins from the link - **http://localhost:8080**
 
 
-## Jenkins - Tomcat Setup
-
+## Creating your first Pepeline
+#### What is a jenkins pipeline?
+**Jenkins Pipeline** is a suite of plugin which support implementing and integrating continuous delivery pipeline into jenkins.</br>
+To get started quickly with Pipeline:</br>
+1. Copy one of the example below into your repository and name it **Jenkinsfile**.
+2. Click the New item menu within Jenkins.
