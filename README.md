@@ -51,9 +51,7 @@ To get started quickly with Pipeline:</br>
 3. Provide a name for your new item(e.g **My Pipeline**) and select **Multibranch Pipeline**
 4. Click the **Add Source** butto, choose the type of repository you want to use and fill in the details.
 5. Click the Save button and watch your first Pipeline run!
-## Running multiple steps
 
-## Define execution environments
 ## Cleaning up and notifications
 Since the post section of a Pipeline is guaranteed to run at the end of a Pipeline’s execution, we can add some notification or other steps to perform finalization, notification, or other end-of-Pipeline tasks.</br>
 
