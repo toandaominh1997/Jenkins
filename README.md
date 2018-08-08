@@ -1,5 +1,6 @@
 # Jenkins
 ## Jenkins - Overview
+Jenkins is a software that allows **continuous integration**. Jenkins will be installed on a server where the central build will take place. The following flowchart demonstrates a very simple workflow of how Jenkins works.
 ## Jenkins - Installation
 #### Download Jenkins
 You can download Jenkins following link [Jenkins](https://jenkins.io)
@@ -8,9 +9,23 @@ Open the command prompt. Browse to the directory where the jenkins.war file is p
 ``` cpp
 D:/> java -jar Jenkins.war
 ```
+After the command is run, various tasks will run, one of which is the extraction of the war file which is done by an embedded webserver called winstone.</br>
+```
+D:\>Java –jar Jenkins.war
+Running from: D:\jenkins.war
+Webroot: $user.home/ .jenkins
+Sep 29, 2015 4:10:46 PM winstone.Logger logInternal
+INFO: Beginning extraction from war file
+```
+Once the processing is complete without major errors, the following line will come in the output of the command prompt.</br>
+```
+INFO: Jenkins is fully up and running
+```
+
 
 #### Accessing jenkins
-Once jenkins is up and running, one can access jenkins from the link - **http://localhost:8080**
+Once jenkins is up and running, one can access jenkins from the link - **http://localhost:8080**</br>
+![](Image/rundemo.PNG)
 
 ## Create your firest Freestyle project
 The build of a project is handled via jobs in Jenkins. Select New Item. Afterwards, enter a name for the job and select Freestype Job and press **OK**
